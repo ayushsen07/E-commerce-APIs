@@ -1,6 +1,6 @@
 # 🛒 Simple E-commerce API
 
-A beginner-friendly REST API for e-commerce applications built with Node.js, Express, MongoDB, and JWT authentication.
+REST API for e-commerce applications built with Node.js, Express, MongoDB, and JWT authentication.
 
 ## 📋 Features
 
@@ -112,9 +112,7 @@ ecommerce-api/
 |--------|----------|-------------|---------------|
 | POST | `/api/orders` | Create order from cart | Yes |
 | GET | `/api/orders` | Get user's orders | Yes |
-| GET | `/api/orders/:id` | Get single order | Yes |
-| GET | `/api/orders/admin/all` | Get all orders | Admin only |
-| PUT | `/api/orders/:id/status` | Update order status | Admin only |
+
 
 ## 📝 API Usage Examples
 
@@ -292,9 +290,6 @@ curl -X POST http://localhost:4000/api/auth/register \
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ## 📞 Support
 
